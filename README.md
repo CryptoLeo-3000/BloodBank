@@ -2,7 +2,7 @@
 
 ## Topic
 
-E-Blood Management System
+E-Blood Bank Management System
 
 ## By
 

@@ -157,7 +157,7 @@ foreach($results as $result)
                     <abbr title="Phone">P</abbr>: 9930727285/9987886232
                 </p>
                 <p>
-                    <abbr title="Email">E</abbr>: <a href="mailto:varunkhadayate0810@gmail.com"><?php echo htmlentities($result->EmailId); ?>
+                    <abbr title="Email">E</abbr>: <a href="mailto:varunkhadayate0810@gmail.com">varunkhadayate0810@gmail.com
                     </a>
                 </p>
               <?php }} ?>

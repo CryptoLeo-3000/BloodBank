@@ -51,21 +51,26 @@ include('includes/config.php');
             <div class="col-lg-4 mb-4">
                 <div class="card">
                     <h4 class="card-header">The need for blood</h4>
-                   
-                        <p class="card-text" style="padding-left:2%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p class="card-text" style="padding-left:2%">1. Every year our nation requires about 5 Crore units of blood, out of which only a meager 2.5 Crore units of blood are available.</p>
+                    <p class="card-text" style="padding-left:2%">2. The gift of blood is the gift of life. There is no substitute for human blood.</p>
+                    <p class="card-text" style="padding-left:2%">3. More than 38,000 blood donations are needed every day.</p>
+                    <p class="card-text" style="padding-left:2%">4. Every two seconds someone needs blood.</p>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <h4 class="card-header">Blood Tips</h4>
-                   
-                        <p class="card-text" style="padding-left:2%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <h4 class="card-header">Blood Donation Tips</h4>
+                    <p class="card-text" style="padding-left:2%">
+                    1. Please have a good meal at least 3 hours before donating blood.</p>
+                    <p class="card-text" style="padding-left:2%">2. Please accept the snacks offered to you after the donation, it is vital you have them. You are recommended to have a good meal later.</p>
+                    <p class="card-text" style="padding-left:2%">3. Please avoid smoking on the day before donating. You can smoke 3 hours after donation.</p>
+                    <p class="card-text" style="padding-left:2%">4. You are not be eligible to donate blood if you have consumed alcohol 48 hours before donation
+                    </p>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card">
                     <h4 class="card-header">Who you could Help</h4>
-                   
                         <p class="card-text" style="padding-left:2%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
             </div>

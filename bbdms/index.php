@@ -71,8 +71,14 @@ include('includes/config.php');
             <div class="col-lg-4 mb-4">
                 <div class="card">
                     <h4 class="card-header">Who you could Help</h4>
-                        <p class="card-text" style="padding-left:2%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div>
+                        <a class="card-text" style="padding-left:2%" href="https://www.cedars-sinai.org/programs/blood-donor-services/about-donation.html#collapseWhole-Blood-308126893">By donating Whole Blood</a>
+                        <a class="card-text" style="padding-left:2%" href="https://www.cedars-sinai.org/programs/blood-donor-services/about-donation.html#collapsePlatelets-308126892">By donating Platelets</a>
+                        <a class="card-text" style="padding-left:2%" href="https://www.cedars-sinai.org/programs/blood-donor-services/about-donation.html#collapsePlasma-308126891">By donating Plasma</a>
+                        <a class="card-text" style="padding-left:2%" href="https://www.cedars-sinai.org/programs/blood-donor-services/about-donation.html#collapseDouble-Red-Cells-308126890">By donating Double Red Cells</a>
+                        <a class="card-text" style="padding-left:2%" href="https://www.cedars-sinai.org/programs/blood-donor-services/about-donation.html#collapseDonating-for-Yourself-Autologous-Donation-308126889">By Donating for Yourself (Autologous Donation)</a>
+                        <a class="card-text" style="padding-left:2%" href="https://www.cedars-sinai.org/programs/blood-donor-services/about-donation.html#collapseDonating-for-Someone-Else-Directed-Donation--308126888">Donating for Someone Else (Directed Donation)</a>
+
+                    </div>
             </div>
         </div>
         <!-- /.row -->

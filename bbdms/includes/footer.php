@@ -36,7 +36,7 @@
 <style>
 footer {
     display: block;
-    height: 345px;
+    height: 346px;
     text-align: center;
     padding: 3px;
     background-color: #292b2c;

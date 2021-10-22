@@ -7,9 +7,6 @@
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="page.php?type=aboutus">About</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="become-donar.php">Become a Donor</a>
                     </li>
                      <li class="nav-item">

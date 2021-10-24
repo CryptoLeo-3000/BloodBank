@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 17, 2020 at 10:59 AM
--- Server version: 10.4.13-MariaDB
--- PHP Version: 7.4.7
+-- Generation Time: Oct 24, 2021 at 07:38 AM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 7.4.24
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -70,7 +70,8 @@ INSERT INTO `tblblooddonars` (`id`, `FullName`, `MobileNumber`, `EmailId`, `Gend
 (3, 'Ami', '42352352352', '', 'Male', 23, 'A+', NULL, ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ', '2017-07-01 07:21:21', 1),
 (4, 'fdsfsgg', '35345435345', '', 'Female', 26, 'AB-', NULL, ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ', '2017-07-01 07:21:42', 1),
 (6, 'Lyndon Bermoy', '123456789', 'serbermz2020@gmail.com', 'Male', 38, 'AB+', 'India', 'Hey, i want to become a donor ', '2020-07-17 08:51:48', 1),
-(7, 'Demo', '123456789', 'demo@gmail.com', 'Male', 23, 'A-', 'demo', ' demo', '2020-07-17 08:53:51', 1);
+(7, 'Demo', '123456789', 'demo@gmail.com', 'Male', 23, 'A-', 'demo', ' demo', '2020-07-17 08:53:51', 1),
+(8, 'Varun Mahendra Khadayate', '09930727285', 'varunkhadayate0810@gmail.com', 'Male', 19, 'O-', 'B-002,SHREYA CHS,SEC-07,PLOT-A/3\r\nKhanda Colony', 'Hello User', '2021-10-20 18:34:29', 1);
 
 -- --------------------------------------------------------
 
@@ -92,9 +93,11 @@ INSERT INTO `tblbloodgroup` (`id`, `BloodGroup`, `PostingDate`) VALUES
 (1, 'A-', '2017-06-30 20:33:50'),
 (2, 'AB-', '2017-06-30 20:34:00'),
 (3, 'O-', '2017-06-30 20:34:05'),
-(4, 'A-', '2017-06-30 20:34:10'),
+(4, 'B-', '2021-10-24 05:36:14'),
 (5, 'A+', '2017-06-30 20:34:13'),
-(7, 'AB+', '2020-07-17 08:49:36');
+(6, 'B+', '2021-10-24 05:36:46'),
+(7, 'AB+', '2020-07-17 08:49:36'),
+(8, 'O+', '2021-10-24 05:34:02');
 
 -- --------------------------------------------------------
 
@@ -140,7 +143,15 @@ INSERT INTO `tblcontactusquery` (`id`, `name`, `EmailId`, `ContactNumber`, `Mess
 (2, 'caasda', 'webhostingamigo@gmail.com', '42342342', 'drftghjk', '2017-06-30 21:17:09', NULL),
 (3, 'caasda', 'webhostingamigo@gmail.com', '42342342', 'drftghjk', '2017-06-30 21:21:30', NULL),
 (4, 'te', 'sdfsdf@gmail.com', '75787875545', 'sfsdf sdg hs h sh', '2017-07-01 07:19:36', NULL),
-(5, 'Lyndon Bermoy', 'serbermz2020@gmail.com', '123456789', 'demo', '2020-07-17 08:50:20', 1);
+(5, 'Lyndon Bermoy', 'serbermz2020@gmail.com', '123456789', 'demo', '2020-07-17 08:50:20', 1),
+(6, 'Varun Mahendra Khadayate', 'varunkhadayate0810@gmail.com', '09930727285', 'mvhvjh', '2021-10-21 12:09:56', NULL),
+(7, 'Varun Mahendra Khadayate', 'varunkhadayate0810@gmail.com', '09930727285', 'dfgsfgs', '2021-10-21 12:16:27', NULL),
+(8, 'Varun Mahendra Khadayate', 'varunkhadayate0810@gmail.com', '09930727285', 'dfgsfgs', '2021-10-21 12:17:56', NULL),
+(9, 'Varun Mahendra Khadayate', 'varunkhadayate0810@gmail.com', '09930727285', 'sdvdvdvvvdzdv svfvf', '2021-10-21 12:18:17', NULL),
+(10, 'Varun Mahendra Khadayate', 'varunkhadayate0810@gmail.com', '09930727285', 'hello user', '2021-10-21 16:01:40', NULL),
+(11, 'Varun Mahendra Khadayate', 'varunkhadayate0810@gmail.com', '09930727285', 'hello user', '2021-10-21 16:03:01', NULL),
+(12, 'Varun Mahendra Khadayate', 'varunkhadayate0810@gmail.com', '09930727285', 'hello user', '2021-10-21 17:10:08', NULL),
+(13, 'Varun Mahendra Khadayate', 'varunkhadayate0810@gmail.com', '09930727285', 'hello user', '2021-10-21 17:12:15', NULL);
 
 -- --------------------------------------------------------
 
@@ -217,13 +228,13 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `tblblooddonars`
 --
 ALTER TABLE `tblblooddonars`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `tblbloodgroup`
 --
 ALTER TABLE `tblbloodgroup`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `tblcontactusinfo`
@@ -235,7 +246,7 @@ ALTER TABLE `tblcontactusinfo`
 -- AUTO_INCREMENT for table `tblcontactusquery`
 --
 ALTER TABLE `tblcontactusquery`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `tblpages`

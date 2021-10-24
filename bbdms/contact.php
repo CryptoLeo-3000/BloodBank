@@ -154,10 +154,10 @@ foreach($results as $result)
                     <br>
                 </p>
                 <p>
-                    <abbr title="Phone">P</abbr>: 9930727285/9987886232
+                    <abbr title="Phone">P</abbr>: 9930727285/254-296-8200
                 </p>
                 <p>
-                    <abbr title="Email">E</abbr>: <a href="mailto:varunkhadayate0810@gmail.com">varunkhadayate0810@gmail.com
+                    <abbr title="Email">E</abbr>: <a href="mailto:ebloodbank@info.com">ebloodbank@info.com
                     </a>
                 </p>
               <?php }} ?>

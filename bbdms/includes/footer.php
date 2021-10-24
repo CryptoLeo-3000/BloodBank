@@ -4,8 +4,8 @@
 <div class="row">
 
     <div style="  font-size: 3rem;color: #fff;" class="col-md-4">
-        <a style="font-size: 2rem; color: #ccc; display: block;" href="index.php" class="logo"><span>H</span>ealth<span>C</span>are.</a>
-        <p style="font-size: 1.5rem;color: #eee;padding: 1rem 0;">Address: Plot No. C-87, Near Kharghar Cha Raja Ganesh Temple, Navi Mumbai.
+        <a style="font-size: 2rem; color: #ccc; display: block;" href="index.php" class="logo">E-BloodBank</a>
+        <p style="font-size: 1.5rem;color: #eee;padding: 1rem 0;">Address: Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kharghar, Navi Mumbai, Maharashtra 410210
                        Phone: 254-296-8200
         Email: ebloodbank@info.com
 
@@ -22,13 +22,16 @@
 
     <div style="padding: 1.3rem;" class="col-md-4 text-center">
         <h3 style="color: #fff;font-size: 2rem;">Share on</h3>
-        <a style="font-size: 2rem; color: #ccc; display: block;" href="https://github.com/CryptoLeo-3000/BloodBank.git">Github</a>
+        <a style="font-size: 2rem; color: #ccc; display: block;" href="#">facebook</a>
+        <a style="font-size: 2rem; color: #ccc; display: block;" href="#">twitter</a>
+        <a style="font-size: 2rem; color: #ccc; display: block;" href="#">instagram</a>
+        <a style="font-size: 2rem; color: #ccc; display: block;" href="#">github</a>
     </div>
 </div>
 </div>
     <div class="container">
         <p style="font-size: 1.5rem;color: #eee;padding: 1rem 0;"class="m-0 text-center text-white">
-            Copyright &copy; E-BloodBank Management System 2021
+            Copyright &copy; BloodBank Management System 2021
         </p>
     </div>
 </footer>
@@ -36,7 +39,7 @@
 <style>
 footer {
     display: block;
-    height: 346px;
+    height: 385px;
     text-align: center;
     padding: 3px;
     background-color: #292b2c;
